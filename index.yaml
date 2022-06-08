@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  teleport-kube-agent:
+  - apiVersion: v2
+    appVersion: 9.3.3
+    created: "2022-06-08T12:54:37.913532535Z"
+    description: Teleport provides a secure SSH and Kubernetes remote access solution
+      that doesn't get in the way.
+    digest: f06a1c2331e1fc0263e7fd7d2ad346faa3c562f7647a90f609bd0dda484ef655
+    icon: https://goteleport.com/images/logos/logo-teleport-square.svg
+    keywords:
+    - Teleport
+    name: teleport-kube-agent
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/teleport-kube-agent-0.1.13.tgz
+    version: 0.1.13
+generated: "2022-06-08T12:54:37.911311135Z"
