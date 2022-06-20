@@ -1,9 +1,26 @@
 apiVersion: v1
 entries:
+  logstash:
+  - apiVersion: v1
+    appVersion: 8.1.0
+    created: "2022-06-20T13:26:02.491230905Z"
+    description: Official Elastic helm chart for Logstash
+    digest: 66fc657c043340ec425fe3915679306206731b0f6cf9e0a5258b6418b683cfe6
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/logstash.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: logstash
+    sources:
+    - https://github.com/elastic/logstash
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/logstash-0.0.2.tgz
+    version: 0.0.2
   teleport-kube-agent:
   - apiVersion: v2
     appVersion: 9.3.3
-    created: "2022-06-09T11:39:09.877369871Z"
+    created: "2022-06-20T13:26:02.493476114Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: 5abc841f6db01d1adc7311fdf0b8be5a6a72963de9fa0245b720abd5d6e38733
@@ -16,7 +33,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 9.3.3
-    created: "2022-06-09T11:39:09.876026255Z"
+    created: "2022-06-20T13:26:02.49237291Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: f06a1c2331e1fc0263e7fd7d2ad346faa3c562f7647a90f609bd0dda484ef655
@@ -27,4 +44,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/teleport-kube-agent-0.1.13.tgz
     version: 0.1.13
-generated: "2022-06-09T11:39:09.87396633Z"
+generated: "2022-06-20T13:26:02.488652594Z"
