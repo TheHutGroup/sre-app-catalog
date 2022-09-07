@@ -1,9 +1,21 @@
 apiVersion: v1
 entries:
+  filebeat:
+  - apiVersion: v2
+    appVersion: 6.8.6
+    created: "2022-09-07T07:25:41.236615982Z"
+    description: A Helm chart for filebeat
+    digest: c27cf7793c6c7296c5a8b33aba2c43753a22aec06eb61ca59d6eb88dc6fb708e
+    keywords:
+    - filebeat
+    name: filebeat
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/filebeat-1.0.0.tgz
+    version: 1.0.0
   logstash:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2022-07-14T10:34:46.831118281Z"
+    created: "2022-09-07T07:25:41.237935286Z"
     description: Official Elastic helm chart for Logstash
     digest: 66fc657c043340ec425fe3915679306206731b0f6cf9e0a5258b6418b683cfe6
     home: https://github.com/elastic/helm-charts
@@ -20,7 +32,7 @@ entries:
   teleport-kube-agent:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2022-07-14T10:34:46.836383785Z"
+    created: "2022-09-07T07:25:41.241688499Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: 259df3d9daf735393335cf4b4ee1da6cad34183646bac45992f5cdeda3870f02
@@ -33,7 +45,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 9.3.3
-    created: "2022-07-14T10:34:46.833806383Z"
+    created: "2022-09-07T07:25:41.240208094Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: 5abc841f6db01d1adc7311fdf0b8be5a6a72963de9fa0245b720abd5d6e38733
@@ -46,7 +58,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 9.3.3
-    created: "2022-07-14T10:34:46.832576982Z"
+    created: "2022-09-07T07:25:41.23905199Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: f06a1c2331e1fc0263e7fd7d2ad346faa3c562f7647a90f609bd0dda484ef655
@@ -57,4 +69,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/teleport-kube-agent-0.1.13.tgz
     version: 0.1.13
-generated: "2022-07-14T10:34:46.828666379Z"
+generated: "2022-09-07T07:25:41.234490475Z"
