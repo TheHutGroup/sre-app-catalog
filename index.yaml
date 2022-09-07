@@ -1,9 +1,21 @@
 apiVersion: v1
 entries:
+  filebeat:
+  - apiVersion: v2
+    appVersion: 6.8.6
+    created: "2022-09-07T16:11:36.275235207Z"
+    description: A Helm chart for filebeat
+    digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
+    keywords:
+    - filebeat
+    name: filebeat
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/filebeat-6.8.6.tgz
+    version: 6.8.6
   opa-gatekeeper:
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2022-09-07T13:26:34.395417376Z"
+    created: "2022-09-07T16:11:36.277189822Z"
     dependencies:
     - name: gatekeeper
       repository: https://open-policy-agent.github.io/gatekeeper/charts
@@ -15,4 +27,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/opa-gatekeeper-0.1.0-dev.6.tgz
     version: 0.1.0-dev.6
-generated: "2022-09-07T13:26:34.391120005Z"
+generated: "2022-09-07T16:11:36.273639694Z"
