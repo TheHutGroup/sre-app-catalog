@@ -12,23 +12,6 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/filebeat-1.0.0.tgz
     version: 1.0.0
-  logstash:
-  - apiVersion: v1
-    appVersion: 8.1.0
-    created: "2022-09-07T07:42:21.4057552Z"
-    description: Official Elastic helm chart for Logstash
-    digest: 66fc657c043340ec425fe3915679306206731b0f6cf9e0a5258b6418b683cfe6
-    home: https://github.com/elastic/helm-charts
-    icon: https://helm.elastic.co/icons/logstash.png
-    maintainers:
-    - email: helm-charts@elastic.co
-      name: Elastic
-    name: logstash
-    sources:
-    - https://github.com/elastic/logstash
-    urls:
-    - https://TheHutGroup.github.io/sre-app-catalog/logstash-0.0.2.tgz
-    version: 0.0.2
   teleport-kube-agent:
   - apiVersion: v2
     appVersion: 10.0.0
