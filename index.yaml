@@ -3,7 +3,7 @@ entries:
   filebeat:
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2022-09-07T07:42:21.404289378Z"
+    created: "2022-09-07T13:26:34.392916078Z"
     description: A Helm chart for filebeat
     digest: 18bf7e71b640c10b457f96c87912e30ab8fc6d650e06122f9afb04380ebb69ab
     keywords:
@@ -12,10 +12,25 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/filebeat-1.0.0.tgz
     version: 1.0.0
+  opa-gatekeeper:
+  - apiVersion: v2
+    appVersion: 3.6.0
+    created: "2022-09-07T13:26:34.395417376Z"
+    dependencies:
+    - name: gatekeeper
+      repository: https://open-policy-agent.github.io/gatekeeper/charts
+      version: 3.6.0
+    description: A Helm chart for Kubernetes
+    digest: c6f681ab75dd17e093672b4003900748a93c77d6613040681726175476bf65bd
+    name: opa-gatekeeper
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/opa-gatekeeper-0.1.0-dev.6.tgz
+    version: 0.1.0-dev.6
   teleport-kube-agent:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2022-09-07T07:42:21.409938763Z"
+    created: "2022-09-07T13:26:34.400175195Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: 259df3d9daf735393335cf4b4ee1da6cad34183646bac45992f5cdeda3870f02
@@ -28,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 9.3.3
-    created: "2022-09-07T07:42:21.408232837Z"
+    created: "2022-09-07T13:26:34.398341109Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: 5abc841f6db01d1adc7311fdf0b8be5a6a72963de9fa0245b720abd5d6e38733
@@ -41,7 +56,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 9.3.3
-    created: "2022-09-07T07:42:21.406960918Z"
+    created: "2022-09-07T13:26:34.396891847Z"
     description: Teleport provides a secure SSH and Kubernetes remote access solution
       that doesn't get in the way.
     digest: f06a1c2331e1fc0263e7fd7d2ad346faa3c562f7647a90f609bd0dda484ef655
@@ -52,4 +67,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/teleport-kube-agent-0.1.13.tgz
     version: 0.1.13
-generated: "2022-09-07T07:42:21.401934842Z"
+generated: "2022-09-07T13:26:34.391120005Z"
