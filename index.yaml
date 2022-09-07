@@ -3,7 +3,7 @@ entries:
   filebeat:
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2022-09-07T16:27:06.972752282Z"
+    created: "2022-09-07T20:43:19.362659815Z"
     description: A Helm chart for filebeat
     digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
     keywords:
@@ -12,10 +12,28 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/filebeat-6.8.6.tgz
     version: 6.8.6
+  gatekeeper:
+  - apiVersion: v2
+    appVersion: v3.9.0
+    created: "2022-09-07T20:43:19.364895715Z"
+    description: A Helm chart for Gatekeeper
+    digest: f773e7a70aa796cab3ff81ccca4f32fea4a16a79858b8c0d571cd4d40f9338ee
+    home: https://github.com/open-policy-agent/gatekeeper
+    keywords:
+    - open policy agent
+    - opa
+    - gatekeeper
+    - opa gatekeeper
+    name: gatekeeper
+    sources:
+    - https://github.com/open-policy-agent/gatekeeper.git
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/gatekeeper-3.9.0.tgz
+    version: 3.9.0
   keda:
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2022-09-07T16:27:06.99107628Z"
+    created: "2022-09-07T20:43:19.370391609Z"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: b65c0a866f4ee0e1fe256806b64a7c4e52ceab1592653b12d5d594cf418791a1
     home: https://github.com/kedacore/keda
@@ -30,7 +48,7 @@ entries:
   opa-gatekeeper:
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2022-09-07T16:27:06.99359449Z"
+    created: "2022-09-07T20:43:19.372134065Z"
     dependencies:
     - name: gatekeeper
       repository: https://open-policy-agent.github.io/gatekeeper/charts
@@ -42,4 +60,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/opa-gatekeeper-0.1.0-dev.6.tgz
     version: 0.1.0-dev.6
-generated: "2022-09-07T16:27:06.971502528Z"
+generated: "2022-09-07T20:43:19.360340806Z"
