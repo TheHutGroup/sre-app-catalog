@@ -3,7 +3,7 @@ entries:
   filebeat:
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2022-09-08T11:02:25.231100749Z"
+    created: "2022-09-08T11:06:02.611802003Z"
     description: A Helm chart for filebeat
     digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
     keywords:
@@ -15,7 +15,7 @@ entries:
   gatekeeper:
   - apiVersion: v2
     appVersion: v3.9.0
-    created: "2022-09-08T11:02:25.234663253Z"
+    created: "2022-09-08T11:06:02.615894676Z"
     description: A Helm chart for Gatekeeper
     digest: f773e7a70aa796cab3ff81ccca4f32fea4a16a79858b8c0d571cd4d40f9338ee
     home: https://github.com/open-policy-agent/gatekeeper
@@ -32,7 +32,7 @@ entries:
     version: 3.9.0
   - apiVersion: v2
     appVersion: v3.9.0
-    created: "2022-09-08T11:02:25.231451669Z"
+    created: "2022-09-08T11:06:02.612056508Z"
     description: A Helm chart for Gatekeeper
     digest: 83622cc3f474881e2c39657a3b549c248a0f8632384b443f5091f62b18248c94
     home: https://github.com/open-policy-agent/gatekeeper
@@ -50,7 +50,7 @@ entries:
   keda:
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2022-09-08T11:02:25.239397525Z"
+    created: "2022-09-08T11:06:02.619823346Z"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: b65c0a866f4ee0e1fe256806b64a7c4e52ceab1592653b12d5d594cf418791a1
     home: https://github.com/kedacore/keda
@@ -65,7 +65,7 @@ entries:
   navarch-namespace:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2022-09-08T11:02:25.241816064Z"
+    created: "2022-09-08T11:06:02.620287155Z"
     description: A Helm chart for navarch-namespace
     digest: 999025766a1abbcd997b2c5a5f2142a92af0c9108650191c39e30e06179a9215
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace
@@ -81,7 +81,7 @@ entries:
   opa-gatekeeper:
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2022-09-08T11:02:25.244133397Z"
+    created: "2022-09-08T11:06:02.622724298Z"
     dependencies:
     - name: gatekeeper
       repository: https://open-policy-agent.github.io/gatekeeper/charts
@@ -93,4 +93,19 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/opa-gatekeeper-0.1.0-dev.6.tgz
     version: 0.1.0-dev.6
-generated: "2022-09-08T11:02:25.230003486Z"
+  unity-namespace-sync:
+  - apiVersion: v2
+    appVersion: v1.4.6
+    created: "2022-09-08T11:06:02.623018504Z"
+    description: A Helm chart for Unity Namespace Sync
+    digest: 2efa20f2507add8717b1154ef4f395bf175d7a050ddb293b53ccbb92a9ea698a
+    home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace-app
+    keywords:
+    - unity namespace sync
+    name: unity-namespace-sync
+    sources:
+    - https://github.com/THG-Site-Reliability-Engineering/navarch-namespace-app.git
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/unity-namespace-sync-1.4.6.tgz
+    version: 1.4.6
+generated: "2022-09-08T11:06:02.611025489Z"
