@@ -1,9 +1,25 @@
 apiVersion: v1
 entries:
+  event-exporter:
+  - apiVersion: v2
+    appVersion: v1.3.2
+    created: "2022-09-08T11:30:43.556631216Z"
+    description: A Helm chart for event-exporter
+    digest: 188e3f1bb32995f2b768a4963ee5eba7d0e0ce13288f5557c067848ebc992756
+    home: https://github.com/THG-Site-Reliability-Engineering/event-exporter-app
+    keywords:
+    - event-exporter
+    - event exporter
+    name: event-exporter
+    sources:
+    - https://github.com/THG-Site-Reliability-Engineering/event-exporter-app.git
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/event-exporter-1.3.2.tgz
+    version: 1.3.2
   filebeat:
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2022-09-08T11:06:02.611802003Z"
+    created: "2022-09-08T11:30:43.557119632Z"
     description: A Helm chart for filebeat
     digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
     keywords:
@@ -15,7 +31,7 @@ entries:
   gatekeeper:
   - apiVersion: v2
     appVersion: v3.9.0
-    created: "2022-09-08T11:06:02.615894676Z"
+    created: "2022-09-08T11:30:43.560067829Z"
     description: A Helm chart for Gatekeeper
     digest: f773e7a70aa796cab3ff81ccca4f32fea4a16a79858b8c0d571cd4d40f9338ee
     home: https://github.com/open-policy-agent/gatekeeper
@@ -30,30 +46,10 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/gatekeeper-3.9.0.tgz
     version: 3.9.0
-<<<<<<< HEAD
-=======
-  - apiVersion: v2
-    appVersion: v3.9.0
-    created: "2022-09-08T11:06:02.612056508Z"
-    description: A Helm chart for Gatekeeper
-    digest: 83622cc3f474881e2c39657a3b549c248a0f8632384b443f5091f62b18248c94
-    home: https://github.com/open-policy-agent/gatekeeper
-    keywords:
-    - open policy agent
-    - opa
-    - gatekeeper
-    - opa gatekeeper
-    name: gatekeeper
-    sources:
-    - https://github.com/open-policy-agent/gatekeeper.git
-    urls:
-    - https://TheHutGroup.github.io/sre-app-catalog/gatekeeper-1.4.6.tgz
-    version: 1.4.6
->>>>>>> main
   keda:
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2022-09-08T11:06:02.619823346Z"
+    created: "2022-09-08T11:30:43.565009492Z"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: b65c0a866f4ee0e1fe256806b64a7c4e52ceab1592653b12d5d594cf418791a1
     home: https://github.com/kedacore/keda
@@ -68,7 +64,7 @@ entries:
   navarch-namespace:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2022-09-08T11:06:02.620287155Z"
+    created: "2022-09-08T11:30:43.565591512Z"
     description: A Helm chart for navarch-namespace
     digest: 999025766a1abbcd997b2c5a5f2142a92af0c9108650191c39e30e06179a9215
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace
@@ -84,7 +80,7 @@ entries:
   opa-gatekeeper:
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2022-09-08T11:06:02.622724298Z"
+    created: "2022-09-08T11:30:43.567619179Z"
     dependencies:
     - name: gatekeeper
       repository: https://open-policy-agent.github.io/gatekeeper/charts
@@ -99,7 +95,7 @@ entries:
   unity-namespace-sync:
   - apiVersion: v2
     appVersion: v1.4.6
-    created: "2022-09-08T11:06:02.623018504Z"
+    created: "2022-09-08T11:30:43.567910188Z"
     description: A Helm chart for Unity Namespace Sync
     digest: 2efa20f2507add8717b1154ef4f395bf175d7a050ddb293b53ccbb92a9ea698a
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace-app
@@ -111,4 +107,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/unity-namespace-sync-1.4.6.tgz
     version: 1.4.6
-generated: "2022-09-08T11:06:02.611025489Z"
+generated: "2022-09-08T11:30:43.554668851Z"
