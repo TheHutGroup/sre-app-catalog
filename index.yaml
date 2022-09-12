@@ -3,7 +3,7 @@ entries:
   event-exporter:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2022-09-12T16:51:24.22612366Z"
+    created: "2022-09-12T16:52:33.646771182Z"
     description: A Helm chart for event-exporter
     digest: 188e3f1bb32995f2b768a4963ee5eba7d0e0ce13288f5557c067848ebc992756
     home: https://github.com/THG-Site-Reliability-Engineering/event-exporter-app
@@ -19,7 +19,7 @@ entries:
   filebeat:
   - apiVersion: v2
     appVersion: 7.17.3
-    created: "2022-09-12T16:51:24.227309587Z"
+    created: "2022-09-12T16:52:33.648656908Z"
     description: A Helm chart for filebeat
     digest: f0298cc6114a00cf440eb6ce3c86e0438454f0f82e11902dab3e18536fbd10b5
     icon: https://helm.elastic.co/icons/beats.png
@@ -33,7 +33,7 @@ entries:
     version: 7.17.3
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2022-09-12T16:51:24.226440067Z"
+    created: "2022-09-12T16:52:33.647229489Z"
     description: A Helm chart for filebeat
     digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
     keywords:
@@ -45,7 +45,7 @@ entries:
   gatekeeper:
   - apiVersion: v2
     appVersion: v3.9.0
-    created: "2022-09-12T16:51:24.230153551Z"
+    created: "2022-09-12T16:52:33.650659536Z"
     description: A Helm chart for Gatekeeper
     digest: f773e7a70aa796cab3ff81ccca4f32fea4a16a79858b8c0d571cd4d40f9338ee
     home: https://github.com/open-policy-agent/gatekeeper
@@ -63,7 +63,7 @@ entries:
   keda:
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2022-09-12T16:51:24.233825934Z"
+    created: "2022-09-12T16:52:33.655583804Z"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: b65c0a866f4ee0e1fe256806b64a7c4e52ceab1592653b12d5d594cf418791a1
     home: https://github.com/kedacore/keda
@@ -78,9 +78,9 @@ entries:
   navarch-namespace:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2022-09-12T16:51:24.234294344Z"
+    created: "2022-09-12T16:52:33.65604281Z"
     description: A Helm chart for navarch-namespace
-    digest: 7f86e13c35115ee56e599234f9fb8f6903e5b36a728d4f62f6e375dbf31a6fc2
+    digest: 668e26271ea53e04e907aec0602975b3ab4b68a80d5013fd9566d037cf1a0806
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace
     keywords:
     - navarch-namespace
@@ -94,7 +94,7 @@ entries:
   unity-namespace-sync:
   - apiVersion: v2
     appVersion: v1.4.6
-    created: "2022-09-12T16:51:24.234622651Z"
+    created: "2022-09-12T16:52:33.656398015Z"
     description: A Helm chart for Unity Namespace Sync
     digest: 0789170e12205d8e84c0750320ba15762f44a9fa9663b0ecfbbc233a9e7d4b04
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace-app
@@ -106,4 +106,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/unity-namespace-sync-1.4.6.tgz
     version: 1.4.6
-generated: "2022-09-12T16:51:24.225560947Z"
+generated: "2022-09-12T16:52:33.645307062Z"
