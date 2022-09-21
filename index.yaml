@@ -3,7 +3,7 @@ entries:
   event-exporter:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2022-09-20T23:29:51.460977666Z"
+    created: "2022-09-21T16:22:34.624438+01:00"
     description: A Helm chart for event-exporter
     digest: c30ee8f2acb88d73d80189b578230512f232dbbf669103099ac109c11c963d74
     home: https://github.com/THG-Site-Reliability-Engineering/event-exporter-app
@@ -19,7 +19,7 @@ entries:
   filebeat:
   - apiVersion: v2
     appVersion: 7.17.3
-    created: "2022-09-20T23:29:51.463033545Z"
+    created: "2022-09-21T16:22:34.626251+01:00"
     description: A Helm chart for filebeat
     digest: f0298cc6114a00cf440eb6ce3c86e0438454f0f82e11902dab3e18536fbd10b5
     icon: https://helm.elastic.co/icons/beats.png
@@ -33,7 +33,7 @@ entries:
     version: 7.17.3
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2022-09-20T23:29:51.461434083Z"
+    created: "2022-09-21T16:22:34.62509+01:00"
     description: A Helm chart for filebeat
     digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
     keywords:
@@ -45,7 +45,7 @@ entries:
   gatekeeper:
   - apiVersion: v2
     appVersion: v3.9.0
-    created: "2022-09-20T23:29:51.465350534Z"
+    created: "2022-09-21T16:22:34.629743+01:00"
     description: A Helm chart for Gatekeeper
     digest: dc2aec28c2ed070a2694ab37a50f94aac20a3b72b6f06cfb70500733a7d1468e
     home: https://github.com/open-policy-agent/gatekeeper
@@ -60,10 +60,33 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/gatekeeper-3.9.0.tgz
     version: 3.9.0
+  karma:
+  - apiVersion: v2
+    appVersion: v0.105
+    created: "2022-09-21T16:22:34.63163+01:00"
+    description: A Helm chart for Karma - an UI for Prometheus Alertmanager
+    digest: a3053ee5edd01da40d075aea1dab9caf28d3e5a1761f6979fd426f5c848c2445
+    home: https://github.com/prymitive/karma
+    kubeVersion: '>= 1.19-0'
+    maintainers:
+    - email: cdesaintmartin@wiremind.io
+      name: desaintmartin
+    - email: amrini@wiremind.io
+      name: machine424
+    - email: fminaud@wiremind.io
+      name: francoisminaud
+    name: karma
+    sources:
+    - https://github.com/wiremind/wiremind-helm-charts/tree/main/charts/karma
+    - https://github.com/prymitive/karma
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/sre-app-catalog/karma-2.1.1.tgz
+    version: 2.1.1
   keda:
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2022-09-20T23:29:51.468973174Z"
+    created: "2022-09-21T16:22:34.638252+01:00"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: b65c0a866f4ee0e1fe256806b64a7c4e52ceab1592653b12d5d594cf418791a1
     home: https://github.com/kedacore/keda
@@ -78,7 +101,7 @@ entries:
   navarch-namespace:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2022-09-20T23:29:51.469723803Z"
+    created: "2022-09-21T16:22:34.639519+01:00"
     description: A Helm chart for navarch-namespace
     digest: 668e26271ea53e04e907aec0602975b3ab4b68a80d5013fd9566d037cf1a0806
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace
@@ -94,7 +117,7 @@ entries:
   unity-namespace-sync:
   - apiVersion: v2
     appVersion: v1.4.6
-    created: "2022-09-20T23:29:51.470385529Z"
+    created: "2022-09-21T16:22:34.640115+01:00"
     description: A Helm chart for Unity Namespace Sync
     digest: 94cd15e3d81bde775b9c9f251e6ff45943b19d52a34ba9d48711f2742d45ae70
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace-app
@@ -106,4 +129,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/sre-app-catalog/unity-namespace-sync-1.4.6.tgz
     version: 1.4.6
-generated: "2022-09-20T23:29:51.459164396Z"
+generated: "2022-09-21T16:22:34.622821+01:00"
